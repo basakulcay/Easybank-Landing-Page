@@ -11,17 +11,18 @@ body {
   top: 0;
   height: 100vh;
   width: 100vw;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .intro {
-  margin-top: -260px;
+  margin-top: -400px;
   margin-right: -400px;
   float: right;
   z-index: 1;
 }
 
 .phones {
-  margin-top: -150px;
+  margin-top: -290px;
   float: right;
   margin-right: -980px;
   z-index: 2;
@@ -35,16 +36,15 @@ body {
   z-index: 3;
   width: 100%;
   display: block;
-  height: 50px;
+  height: 90px;
   position: absolute;
 }
 
 .navbar {
   z-index: 2;
-  text-align: center;
   padding: 10px;
-  margin: 0;
   z-index: 3;
+  margin-top: 2%;
 }
 
 .navbar li {
@@ -56,10 +56,100 @@ body {
 .navbar li a {
   text-decoration: none;
   color: grey;
+  font-size: 14px;
 }
 
 #logo {
   float: left;
   margin-top: 15px;
   margin-left: 60px;
+  margin-right: 200px;
+  margin-top: 3%;
+}
+
+.left-intro {
+  margin-top: 250px;
+  margin-left: 90px;
+}
+
+h1 {
+  font: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 54px;
+  height: 1em;
+  color: hsl(233, 26%, 24%);
+}
+
+.left-intro p {
+  position: relative;
+  top: 40px;
+  width: 450px;
+  line-height: 1.5rem;
+  color: hsl(233, 8%, 62%);
+  font-weight: 300;
+  font: 'Public Sans', sans-serif;
+  height: 100wh;
+}
+
+.request-bar {
+  position: relative;
+  top: 40px;
+  width: 160px;
+  height: 2.9em;
+  background-color: rgb(15, 27, 61);
+  border-radius: 1.5rem;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  text-align: center;
+  font-size: 14px;
+}
+
+.request-bar::before {
+  content: attr(label);
+  align-items: center;
+  position: absolute;
+  display: flex;
+  top: 0.85em;
+  left: 35px;
+}
+
+.left-detail {
+  margin-top: 300px;
+  background-color: hsl(220, 16%, 96%);
+  width: 100%;
+}
+
+.left-detail h2 {
+  font: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  height: 1em;
+  color: hsl(233, 26%, 24%);
+  margin-left: 98px;
+  padding-top: 98px;
+}
+
+.left-detail p {
+  color: hsl(233, 8%, 62%);
+  position: relative;
+  line-height: 1.5rem;
+  color: hsl(233, 8%, 62%);
+  font-weight: 300;
+  font: 'Public Sans', sans-serif;
+  margin-left: 98px;
+}
+
+.boxes {
+  padding: 15px 98px;
+  display: flex;
+  width: 17%;
+}
+
+.boxes p {
+  font-size: 16px;
+  margin-left: 0;
 }
