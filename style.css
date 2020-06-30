@@ -12,6 +12,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: hsl(0, 0%, 98%);
+  overflow-x: hidden;
 }
 
 .intro {
@@ -123,7 +124,8 @@ h1 {
   width: 100%;
 }
 
-.left-detail h2 {
+.left-detail h2,
+.left-articles h2 {
   font: 'Public Sans', sans-serif;
   font-weight: 300;
   font-size: 34px;
@@ -144,12 +146,62 @@ h1 {
 }
 
 .boxes {
-  padding: 15px 98px;
+  padding: 45px 98px;
   display: flex;
-  width: 17%;
+  margin-right: 1%;
 }
 
 .boxes p {
   font-size: 16px;
   margin-left: 0;
+}
+.boxes h3 {
+  font: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  height: 1em;
+  color: hsl(233, 26%, 24%);
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 35%;
+  margin-right: 30px;
+}
+
+.article-boxes {
+    margin-left: 98px;
+    background-color: hsl(0, 0%, 98%) ;
+}
+.article-1 {
+  width: 250px;
+  margin-right: 50px;
+  padding: auto;
+  background-color: white;;
+}
+.article-1 h3 {
+  font: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 1em;
+  color: hsl(233, 26%, 24%);
+  padding-top: 26px;
+}
+
+.article-boxes img {
+  width: 250px;
+}
+
+.article-1 p {
+    padding-top: 15px;
+    color: hsl(233, 8%, 62%);
+    position: relative;
+    font-size: 14px;
+    line-height: 1.2rem;
+    color: hsl(233, 8%, 62%);
+    font-weight: 300;
+    font: 'Public Sans', sans-serif;
+
 }
