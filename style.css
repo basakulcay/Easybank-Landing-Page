@@ -172,16 +172,23 @@ h1 {
 }
 
 .article-boxes {
-    margin-left: 98px;
-    background-color: hsl(0, 0%, 98%) ;
+  display: flex;
+  margin-left: 98px;
+  background-color: hsl(0, 0%, 98%);
 }
-.article-1 {
+.article-1,
+.article-2,
+.article-3,
+.article-4 {
   width: 250px;
   margin-right: 50px;
   padding: auto;
-  background-color: white;;
+  background-color: white;
 }
-.article-1 h3 {
+.article-1 h3,
+.article-2 h3,
+.article-3 h3,
+.article-4 h3 {
   font: 'Public Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -191,17 +198,20 @@ h1 {
 }
 
 .article-boxes img {
+  height: 200px;
   width: 250px;
 }
 
-.article-1 p {
-    padding-top: 15px;
-    color: hsl(233, 8%, 62%);
-    position: relative;
-    font-size: 14px;
-    line-height: 1.2rem;
-    color: hsl(233, 8%, 62%);
-    font-weight: 300;
-    font: 'Public Sans', sans-serif;
-
+.article-1 p,
+.article-2 p,
+.article-3 p,
+.article-4 p {
+  padding-top: 15px;
+  color: hsl(233, 8%, 62%);
+  position: relative;
+  font-size: 14px;
+  line-height: 1.2rem;
+  color: hsl(233, 8%, 62%);
+  font-weight: 300;
+  font: 'Public Sans', sans-serif;
 }
