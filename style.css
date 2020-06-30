@@ -92,9 +92,44 @@ h1 {
   height: 100wh;
 }
 
-.request-bar {
+.left-intro .request-bar {
   position: relative;
   top: 40px;
+  width: 160px;
+  height: 2.9em;
+  background-color: rgb(15, 27, 61);
+  border-radius: 1.5rem;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  text-align: center;
+  font-size: 14px;
+}
+
+.container .request-bar {
+  position: absolute;
+  top: 28px;
+  right: 120px;
+  width: 160px;
+  height: 2.9em;
+  background-color: rgb(15, 27, 61);
+  border-radius: 1.5rem;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  text-align: center;
+  font-size: 14px;
+}
+
+.about .request-bar {
+  position: absolute;
+  right: 120px;
   width: 160px;
   height: 2.9em;
   background-color: rgb(15, 27, 61);
@@ -175,6 +210,7 @@ h1 {
   display: flex;
   margin-left: 98px;
   background-color: hsl(0, 0%, 98%);
+  padding-bottom: 100px;
 }
 .article-1,
 .article-2,
@@ -185,10 +221,7 @@ h1 {
   padding: auto;
   background-color: white;
 }
-.article-1 h3,
-.article-2 h3,
-.article-3 h3,
-.article-4 h3 {
+.article-boxes h3 {
   font: 'Public Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -202,16 +235,66 @@ h1 {
   width: 250px;
 }
 
-.article-1 p,
-.article-2 p,
-.article-3 p,
-.article-4 p {
+.article-boxes p {
   padding-top: 15px;
   color: hsl(233, 8%, 62%);
   position: relative;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.2rem;
   color: hsl(233, 8%, 62%);
   font-weight: 300;
   font: 'Public Sans', sans-serif;
+  width: 80%;
+}
+
+.about {
+  height: 180px;
+  width: 100%;
+  background-color: hsl(233, 26%, 24%);
+  font-weight: 300;
+}
+
+.about-list {
+  padding-top: 25px;
+  display: flex;
+}
+.about ul {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 2rem;
+  color: white;
+  padding-right: 95px;
+}
+
+.totes {
+  padding-left: 60px;
+  float: left;
+  margin-top: 40px;
+}
+
+.icons {
+  margin-left: 60px;
+  margin-top: 70px;
+}
+.icons img {
+  padding: 5px;
+}
+
+.about .request-bar {
+  float: right;
+  margin-top: -95px;
+}
+
+.about p {
+  float: right;
+  margin-top: -25px;
+  margin-right: 110px;
+  color: white;
+  font-size: 12px;
+}
+
+.about p a {
+    text-decoration: none;
+    color:white;
+  
 }
