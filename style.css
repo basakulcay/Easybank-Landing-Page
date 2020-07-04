@@ -1,18 +1,14 @@
 html {
-  margin: 0;
+  margin:0;
   padding: 0;
-  width: 100%;
-  font-size: 18px;
   font-family: 'Public Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   top: 0;
-  height: 100vh;
-  width: 100vw;
   background-color: hsl(0, 0%, 98%);
-  overflow-x: hidden;
 }
 
 .intro {
@@ -29,36 +25,6 @@ body {
   z-index: 2;
 }
 
-.container {
-  margin: 0;
-  padding: 0;
-  top: 0;
-  background-color: white;
-  z-index: 3;
-  width: 100%;
-  display: block;
-  height: 90px;
-  position: absolute;
-}
-
-.navbar {
-  z-index: 2;
-  padding: 10px;
-  z-index: 3;
-  margin-top: 2%;
-}
-
-.navbar li {
-  display: inline-block;
-  padding: 0 25px;
-  z-index: 3;
-}
-
-.navbar li a {
-  text-decoration: none;
-  color: grey;
-  font-size: 14px;
-}
 
 #logo {
   float: left;
@@ -294,7 +260,19 @@ h1 {
 }
 
 .about p a {
-    text-decoration: none;
-    color:white;
-  
+  text-decoration: none;
+  color: white;
+}
+
+.info {
+  width: 160px;
+  background-color: rgb(15, 27, 61);
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+
+  font-size: 14px;
 }

@@ -2,8 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Easybank landing page</title>
 
     <link
       rel="icon"
@@ -11,48 +27,45 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Frontend Mentor | Easybank landing page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
 
+  <!--CODE BODY-->
+
   <header>
-    <section class="container">
-      <img id="logo" src="./images/logo.svg" />
-      <nav>
-        <ul class="navbar">
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">About</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
-          <li>
-            <a href="">Blog</a>
-          </li>
-          <li>
-            <a href="">Careers</a>
-          </li>
-        </ul>
+    <section class="container d-block">
+      <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white w-100">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.svg" alt="brand" />
+        </a>
+        <div class="navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="info bg-warning rounded-pill">
+          <p class="text-center font-weight-light text-white pt-2">
+            Request Info
+          </p>
+        </div>
       </nav>
-      <div class="request-bar" label="Request Invite"></div>
+      <!--/NAVBAR-->
     </section>
   </header>
   <body>
